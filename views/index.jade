@@ -1,0 +1,14 @@
+extends layout
+block content
+  h1= 'Movies'
+  ul.movies
+  each movie, index in movies
+    h4=index +  '. ' + movie.title + ' ' +' ('  + movie.year + ')'
+    ul
+      li
+        a(href=movie.url)="Download Movie"
+      li
+        a(href=movie.srt_url)= "Subtitle"
+      li='Quality: ' + movie.screenSize
+      li='Size: ' + movie.size + ' MB'
+      li='Added : ' + movie.addedOn

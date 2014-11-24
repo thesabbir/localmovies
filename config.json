@@ -1,0 +1,10 @@
+{
+  "hostname": "0.0.0.0",
+  "domain" : "buntu.lan",
+  "db" : "localMovies",
+  "collection": "Movies",
+  "movieDirs" : [
+    "/media/thesabbir/Media/Others/Movies",
+    "/media/thesabbir/Media/Others/Movies"]
+
+}
